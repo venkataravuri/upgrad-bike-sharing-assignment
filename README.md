@@ -1,4 +1,4 @@
-# upGrad - Bike Sharing Assigment
+# upGrad - :rocket: Bike Sharing Assigment :bike:
 
 upGrad Linear Regression Assignment - Build a model for prediction of bike rental daily count based on the environmental and seasonal settings. 
 
