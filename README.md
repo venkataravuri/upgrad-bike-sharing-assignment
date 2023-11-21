@@ -21,36 +21,44 @@ The business goal is to model the demand for shared bikes, understand how exactl
 
 - day.csv
 - Data Dictionary
-   
 
-
+The dataset has 730 rows and 15 columns. No missing values, very clean data.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Conclusion 1
+Univariate Analysis inidcates on numerical variables,
+- Windspeed has outliers. Should we remove outliers?
+Univariate Analysis of categorical data indicates,
+- Holiday
+  - Majority of bike hires are on holidays
+  - This information matches with `Working day or Not working day`
+- Season, Month, Week
+  - Consistent bike rents across season, month and week.
+- Weather Situation
+   - Less bike hires on snowy or rainy days.
+ 
+### Conclusion 2
 
+Bivariate & Multicollinearity Analysis indicates,
+- Temp and atemp are highly correlated.
+- Bike hires count is more on holidays compared to non-holidays.
+- Bike hires are uniform across all week days.
+- Weather situation impacts bike hires. Bad weather has less hires.
+
+### Conclusion 3
+
+The Linear regression model indicates demand for bikes is highly dependent on variables such as year, temperature and weather situation.
 
 ## Technologies Used
-- Python, Jupyter Notebook
+- Python, Stats Models, Jupyter Notebook
 - SciKit-Learn
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Kaggle Notebooks
+- StackOverflow
+- Scikit-Learn Documentation
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@venkataravuri] - feel free to contact me!
